@@ -5,10 +5,18 @@ public class BubbleSort {
     public static void bubbleSort(int[] array) {
         if (array.length <= 1) return;
 
-        for (int i = array.length - 1; i >0; i--) {
-            for (int j = i; j < array.length - 1; j++) {
+//        for (int i = array.length - 1; i > 0; i--) {
+//            for (int j = i; j < array.length - 1; j++) {
+//                if (array[j] > array[j + 1]) {
+//                    swap(array, j, j + 1);
+//                }
+//            }
+//        }
+
+        for (int i = array.length - 1; i > 0 ; i--) {
+            for (int j = 0; j < i ; j++){
                 if (array[j] > array[j + 1]) {
-                    swap(array, j, j+1);
+                    swap(array, j, j + 1);
                 }
             }
         }
