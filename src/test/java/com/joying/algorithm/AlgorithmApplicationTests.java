@@ -2,7 +2,7 @@ package com.joying.algorithm;
 
 import com.joying.algorithm.commonutil.RandomListNode;
 import com.joying.algorithm.interviewtest.ExceptionTest;
-import com.joying.algorithm.jianzhioffer.O_14_ComplexClone;
+import com.joying.algorithm.jianzhioffer.*;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -88,31 +88,35 @@ class AlgorithmApplicationTests {
 
 //        System.out.println(ExceptionTest.getDivision(10));
 
-        RandomListNode head = new RandomListNode(1);
-        RandomListNode node2 = new RandomListNode(2);
-        RandomListNode node3 = new RandomListNode(3);
-        RandomListNode node4 = new RandomListNode(4);
-        RandomListNode node5 = new RandomListNode(5);
-        RandomListNode node6 = new RandomListNode(6);
-        RandomListNode node7 = new RandomListNode(7);
-        RandomListNode node23 = new RandomListNode(23);
-        head.next = node2;
-        node2.next = node3;
-        node3.next = node4;
-        node4.next = node5;
-        node5.next = node6;
-        node6.next = node7;
-        node7.next = node23;
+//        RandomListNode head = new RandomListNode(1);
+//        RandomListNode node2 = new RandomListNode(2);
+//        RandomListNode node3 = new RandomListNode(3);
+//        RandomListNode node4 = new RandomListNode(4);
+//        RandomListNode node5 = new RandomListNode(5);
+//        RandomListNode node6 = new RandomListNode(6);
+//        RandomListNode node7 = new RandomListNode(7);
+//        RandomListNode node23 = new RandomListNode(23);
+//        head.next = node2;
+//        node2.next = node3;
+//        node3.next = node4;
+//        node4.next = node5;
+//        node5.next = node6;
+//        node6.next = node7;
+//        node7.next = node23;
+//
+//        head.random = node3;
+//        node2.random = node5;
+//        node4.random = node2;
+//
+//        RandomListNode clone = O_14_ComplexClone.Clone(head);
+//        while (clone != null) {
+//            System.out.println("clone = " + clone.label);
+//            clone = clone.next;
+//        }
 
-        head.random = node3;
-        node2.random = node5;
-        node4.random = node2;
+//        System.out.println("O_16_LastRemaining_Solution.lastRemaining(5,3) = " + O_16_LastRemaining_Solution.lastRemaining(5, 3));
 
-        RandomListNode clone = O_14_ComplexClone.Clone(head);
-        while (clone != null){
-            System.out.println("clone = " + clone.label);
-            clone = clone.next;
-        }
-
+//        System.out.println("O_18_NumberOf1.numberOf1(10) = " + O_18_NumberOf1.numberOf1(-10));
+        System.out.println("O_19_Add.add(88,8) = " + O_19_Add.add(-88, 8));
     }
 }
