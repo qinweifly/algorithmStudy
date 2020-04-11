@@ -6,6 +6,8 @@ import com.joying.algorithm.jianzhioffer.*;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import javax.sound.midi.Soundbank;
+
 @SpringBootTest
 class AlgorithmApplicationTests {
 
@@ -117,6 +119,12 @@ class AlgorithmApplicationTests {
 //        System.out.println("O_16_LastRemaining_Solution.lastRemaining(5,3) = " + O_16_LastRemaining_Solution.lastRemaining(5, 3));
 
 //        System.out.println("O_18_NumberOf1.numberOf1(10) = " + O_18_NumberOf1.numberOf1(-10));
-        System.out.println("O_19_Add.add(88,8) = " + O_19_Add.add(-88, 8));
+//        System.out.println("O_19_Add.add(88,8) = " + O_19_Add.add(-88, 8));
+
+//        int[] num1 = new int[]{4,5,1,6,2,7,3,8};
+//        int[] num = new int[]{4,5,1,6,2,7,3,2,8};
+//        O_33_GetLeastNumbers list = new  O_33_GetLeastNumbers();
+//        System.out.println("list.getLeastNumbers(num,4) = " + list.getLeastNumbers(num, 4));
+
     }
 }
